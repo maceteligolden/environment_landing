@@ -1,0 +1,40 @@
+.card {
+    padding: 32px;
+    border-radius: 16px;
+    transition: 0.1s;
+}
+
+.card:hover {
+    background-color: #1C3A27;
+    color: var(--white)!important;
+}
+
+.card .logo-cover {
+    height: 80px;
+    width: 80px;
+    background-color: #E2EEEC;
+    margin-bottom: 24px;
+    transition: 0.1s;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .logo-cover img {
+    height: 40px;
+    width: 40px;
+}
+
+.card:hover .logo-cover {
+    height: 80px;
+    width: 80px;
+    background-color: #254330;
+    margin-bottom: 24px;
+}
+
+.card h5{
+    margin-bottom: 16px;
+}
+

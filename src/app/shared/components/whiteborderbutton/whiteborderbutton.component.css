@@ -1,0 +1,13 @@
+.btn-white-outline {
+    background-color: transparent;
+    color: var(--white);
+    padding: 12px 42px;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+}
+
+.btn-white-outline:hover {
+    background-color: white;
+    color: var(--secondary)
+}
+
