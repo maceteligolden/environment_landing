@@ -115,6 +115,12 @@ p {
     background-color: rgb(218, 218, 218);
 }
 
+.articles .article-thumbnail img{
+    height: 100%!important;
+    width: 100%;
+    border-radius: 16px;
+}
+
 .mission {
     background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
 }
